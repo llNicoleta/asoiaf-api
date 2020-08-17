@@ -78,6 +78,7 @@ form {
   color: white;
   margin: 10vh auto;
   max-width: 50vw;
+  font-weight: lighter;
 }
 .author {
   text-align: right;
