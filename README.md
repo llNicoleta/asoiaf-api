@@ -9,5 +9,3 @@
 [API](https://anapioficeandfire.com/Documentation)
 [WIKI](https://gameofthrones.fandom.com/wiki/Game_of_Thrones_Wiki)
 [MAIN-FONT]()
-     # asoiaf-data
-# asoiaf-api
