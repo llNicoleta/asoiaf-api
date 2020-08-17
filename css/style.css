@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* -- Background setup --*/
+
+#main-page {
+  background: url(../img/texture.png) no-repeat center/cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* -- Content Alignment --*/
+
+.page-1 {
+  padding-left: 10vw;
+  padding-right: 10vw;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.logo-main {
+  position: absolute;
+  top: 45vh;
+}
+
+.logo-small {
+  flex: 0.7;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.showcase {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.blue-btn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.blue-btn img {
+  margin: 1vh 0;
+}
+
+.blue-btn button {
+  padding: 10px;
+  border: none;
+  background: none;
+  background-color: #00d1ff;
+  text-align: center;
+  font-size: 2rem;
+  box-shadow: white 0.2rem 0.2rem;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.blue-btn button:hover {
+  cursor: pointer;
+}
+
+.wallpaper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
